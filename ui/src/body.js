@@ -102,10 +102,10 @@ export default {
 
       cfg.brand !== void 0 && setColors(cfg.brand)
 
-      if (client.is.ios === true) {
-        // needed for iOS button active state
-        document.body.addEventListener('touchstart', () => {})
-      }
+      // if (client.is.ios === true) {
+      //   // needed for iOS button active state
+      //   document.body.addEventListener('touchstart', () => {})
+      // }
 
       window.addEventListener('keydown', onKeyDownComposition, true)
     }
